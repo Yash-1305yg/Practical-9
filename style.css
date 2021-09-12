@@ -1,0 +1,263 @@
+
+*{padding:0 ;margin: 0; box-sizing: border-box;}
+
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+.container2
+{
+    display: inline-flex;
+    
+}
+.header
+{
+    width: 1200px;
+    height: 70px;
+    background-color: rgb(50, 50, 50);
+    text-align:center;
+    position: fixed;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li
+{
+    display: inline-block;
+    line-height: 70px;
+}
+html
+{
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+}
+.header ul li a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+}
+
+.header ul li:hover
+{
+    background-color: goldenrod;
+    
+}
+
+.banner
+{
+    width: 1200px;
+    height: 920px;
+    background-image: url('./assests/banner.jpg');
+    margin-top: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+   
+}
+.sec1
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.p1
+{
+    width:22%;
+    height: 250px ;
+    border-radius: 50%;
+    background-image: url(./assests/f1.jpg);
+    float: left;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+}
+.p2
+{
+    width:22%;
+    height: 250px ;
+    border-radius: 50%;
+    background-image: url(./assests/m3.jpg);
+    float: left;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+}
+.p3
+{
+    width:22%;
+    height: 250px ;
+    border-radius: 50%;
+    background-image: url(./assests/m4.jpg);
+    float: left;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+}
+.p4
+{
+    width:22%;
+    height: 250px ;
+    border-radius: 50%;
+    background-image: url(./assests/m2.jpg);
+    float: left;
+    margin-left: 25px;
+}
+.sec2
+{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.left
+{   width: 48%;
+    height: 80%;
+    margin-right: 4%;
+    float: left;
+    
+    
+}
+.right
+{
+    width: 48%;
+    height: 80%;
+    
+    float: right;
+    text-align: center;
+}
+.a1
+{
+    width: 100%;
+    height: 28%;
+    margin-bottom: 5.8%;
+    background-image: url(./assests/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.a2
+{
+    width: 100%;
+    height: 28%;
+    margin-bottom: 5.8%;
+    background-image: url(./assests/p2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.a3
+{
+    width: 100%;
+    height: 28%;
+    margin-bottom: 5.8%;
+    background-image: url(./assests/p3.jpg);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+}
+.maincontent
+{
+    width: 100%;
+    height: 400px;
+    background-color:grey;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec3
+{
+    width: 1200px;
+    height: 350px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 290px;
+    
+}
+.sec5
+{
+    width: 1200px;
+    display: inline-flex;
+
+}
+.box
+{
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+    border: 2px solid grey;
+    box-shadow: 0px 7px 7px darkgrey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 17px;
+    text-align: justify;
+}
+
+.box img
+{
+    width: 100%;
+    border-radius: 10px;
+    height: 170px;
+}
+.box h3
+{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mybutton
+{
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.mybutton:hover
+{
+    background-color: blue;
+}
+.sec4
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer
+{
+    width: 100%;
+    height: 90px;
+    background-color: plum;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+    color: solid black;
+    font-size: larger;
+    
+}
